@@ -1,1 +1,2 @@
 # Yes: Affirmative Consent as a Theoretical Framework for Reimagining Social Platforms
+This is a project website of "Yes: Affirmative Consent as a Theoretical Framework for Understanding and Imagining Social Platforms", a paper accepted to CHI 2021, a top-tier conference in Human-Computer Interaction. 
