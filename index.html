@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <head>
+
+        <title> Consentful Systems </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="js/content.js"></script>
+    </head>
+
+
+    <body>
+        <div class="container">
+            <h1>Yes: Affirmative Consent as a Theoretical Framework for Reimagining Social Platforms</h1>
+            <div class="description">
+                <p> <i>This is a project website of "Yes: Affirmative Consent as a Theoretical Framework for Understanding and Imagining Social Platforms", a paper accepted to <a href="http://chi2021.acm.org/">CHI 2021</a>, a top-tier conference in Human-Computer Interaction. Link to paper is <a href="">here</a>.</i></p>
+                <br>
+                <p> <b>How can we design a social internet where people's consent boundaries are protected?</b> Non-consensual interactions are pervasive in online spaces, such as online harassment and revenge porn.
+                In this work, we use a theoretical framework of <strong>affirmative consent ("Yes means yes!")</strong> to understand such problematic phenomena and generate new design ideas to tackle them.
+                This website highlights the 1) framework and 2) design insights for building consentful platforms. </p>
+            </div>
+        </div>
+        <div class="section-title">
+            <div class="container">
+                <h2>Principles of affirmative consent </h2>
+            </div>
+        
+        <div class="container principle-container">
+            <div class="principle">
+                <div class="header"> 1) Affirmative consent is <strong>voluntary</strong>. </div>
+                Consent is an agreement that is 1) freely given and 2) enthusiastic.
+            </div>
+            <div class="principle">
+                <div class="header"> 2) Affirmative consent is <strong>informed</strong>. </div>
+                People can only consent to an interaction after being given correct information about it—in an accessible way.
+            </div>
+            <div class="principle">
+                <div class="header"> 3) Affirmative consent is <strong>revertible</strong>. </div>
+                Consentis an ongoing negotiation and can be revoked at any time.
+            </div>
+            <div class="principle">
+                <div class="header"> 4) Affirmative consent is <strong>specific</strong>. </div>
+                People should be able to consent to a particular action (or a particular person), and not a series of actions or people.
+            </div>
+            <div class="principle">
+                <div class="header"> 5) Affirmative consent is <strong>unburdensome</strong>. </div>
+                The costs associated with giving consent should not be so high that a person gives in and says "yes" when they would rather say "no."
+            </div>
+        </div>
+</div>
+        <div class="building-features-container">
+            <div class="section-title">
+                <div class="container">
+                    <h2>Affirmative consent for generating new system ideas </h2>
+                </div>
+            </div>
+        
+        <div class="container">
+             <h3> 1) Sociotechnical Building Blocks </h3>
+            <div class="principle">
+                <div class="header"> 1. Building blocks for <strong>voluntary</strong>. </div>
+                <div class="building-blocks">
+                    <div class="row block-row">
+                        <div class="col-4"><button id="voluntary-periodic-check">Periodic checks ⭑</button></div>
+                        <div class="col-8 block-definition">System periodically asks the end-user (and does not assume) whether they want the interaction to take place. For instance, a system asks a person if they want to enter the group chat room they are invited to, instead of automatically adding them.</div>
+                    </div>
+                    <div class="row block-row">
+                        <div class="col-4"><button id="voluntary-granular-visibility">Granular visibility &#9734;</button></div>
+                        <div class="col-8 block-definition"> System allows granular levels of visibility of personal information for different friends. While some social platforms provide this, many are limited to differentiating “friends” and “non-friends.” For example, users could have agency over their visibility based on strength of ties. </div>
+                    </div>
+                    <div class="row block-row">
+                        <div class="col-4"><button id="voluntary-sharing-hops">Sharing hops &#9789; </button></div>
+                        <div class="col-8 block-definition">Systems permit limits on how far a post can be shared. For instance, a person can allow people to only directly share their post (hops=1) , helping the author control the degree of visibility and interaction.</div>
+                    </div>
+                    <div class="row block-row">
+                        <div class="col-4"><button id="voluntary-request-isolation">Request isolation &#9790;</button></div>
+                        <div class="col-8 block-definition">Systems allow users to accept a friend request but isolate it, sending the request sender to a separate queue. Users can apply customized social rules to the accounts in the queue. This is in contrast to the current platforms’ rigid options regarding relationships (e.g., accept vs. decline), supporting deeper social rules.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="principle">
+                <div class="header"> 2. Building blocks for <strong>informed</strong>. </div>
+                <div class="building-blocks">
+                    <div class="row block-row">
+                        <div class="col-4"><button id="informed-account-summary">Account summarization †</button></div>
+                        <div class="col-8 block-definition">Using algorithms, systems synthesize account-level behavioral data. Of course, every user needs to be aware this could be happening (otherwise it violates the informed principle). For example, a system could show whether an account a user is about to interact with has consistently used toxic language in the past</div>
+                    </div>
+                    <div class="row block-row">
+                        <div class="col-4"><button id="informed-audience-intel">Audience intel ‡</button></div>
+                        <div class="col-8 block-definition">Systems provide feedback as soon as the real audience diverges from the likely imagined audience. For example, a system might notify a user if their post is shared within a new network neighborhood using community detection algorithms.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="principle">
+                <div class="header"> 3. Building blocks for <strong>revertible</strong>. </div>
+                <div class="building-blocks">
+                    <div class="row block-row">
+                        <div class="col-4"><button id="revertible-effcient-express">Efficient expressivity in <br>deleting/hiding own data &#9728;  </button></div>
+                        <div class="col-8 block-definition">System efficiently allows users to completely delete all types of information—tags, posts, comments, friendships, etc. For example, when someone unfriends another person, the platform might ask “Would you like to remove past tags of this person as well as related posts?”</div>
+                    </div>
+                    <div class="row block-row">
+                        <div class="col-4"><button id="revertible-cascading-revert">Cascading & normative revert &#9788; </button></div>
+                        <div class="col-8 block-definition">System completely deletes past shares/copies if the original data (e.g. post) is deleted. For example, on a centralized sytem like Twitter, retweets disappear if the post is deleted by the poster; on a decentralized system like Mastodon, a protocol could enforce revertibility, with punishments for defections.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="principle">
+                <div class="header"> 4. Building blocks for <strong>specific</strong>. </div>
+                <div class="building-blocks">
+                    <div class="row block-row">
+                        <div class="col-4"><button id="specific-social-circle">Social circles ⟇</button></div>
+                        <div class="col-8 block-definition">Using computation on interaction data, systems can scaffold classifying relationships into groups, or “social circles.” This might be accomplished with community detection algorithms, for example.</div>
+                    </div>
+                    <div class="row block-row">
+                        <div class="col-4"><button id="specific-topic-inference">Topic inference ⧖</button></div>
+                        <div class="col-8 block-definition">Using computation over textual and image data, systems can scaffold classifying content into high-level categories.</div>
+                    </div>
+                    <div class="row block-row">
+                        <div class="col-4"><button id="specific-group-policies">Group-level policies ⟑</button></div>
+                        <div class="col-8 block-definition">Once these circles and topics are created with computational scaffolding, systems can let users articulate more specific group-level policies for messaging, content feeds, etc. For example, a user might choose to only allow comments on a post from people who have commented (and not been blocked) before.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="principle">
+                <div class="header"> 5. Building blocks for <strong>unburdensome</strong>. </div>
+                <div class="building-blocks">
+                    <div class="row block-row">
+                        <div class="col-4"><button id="unburdensome-timeboxing">Timeboxing &spades;</button></div>
+                        <div class="col-8 block-definition">Systems can put customized time limits to interactions. While ephemeral content is an example of this, we argue timeboxing can be applied to a wide range of interactions, and not just posting (e.g. disallow sharing after one week).</div>
+                    </div>
+                    <div class="row block-row">
+                        <div class="col-4"><button id="unburdensome-annotation">Annotation for system learning &diams;</button></div>
+                        <div class="col-8 block-definition">Using computation, systems learn about consent boundaries. Users can annotate posts/comments to articulate their preferences (e.g., annotate posts on content feed as triggering).</button></div>
+                    </div>
+                    <div class="row block-row">
+                        <div class="col-4"><button id="unburdensome-rate-limit">Individual rate limit &clubs;</button></div>
+                        <div class="col-8 block-definition">Systems limit volumes of comments, mentions, etc. based on end-users’ preferences. For example, a user may decide to only allow up to five comments to a post that is on a sensitive subject.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container" style="margin-top: 20px;">
+            <h3> 2) Sociotechnical Interaction Features </h3>
+            <table class="table table-striped" id="feature-table">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                          <th scope="col">Voluntary</th>
+                          <th scope="col">Informed</th>
+                          <th scope="col">Revertible</th>
+                          <th scope="col">Specific</th>
+                          <th scope="col">Unburdensome</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">DM + group chat</th>
+                        <td class="voluntary-periodic-check">Users are asked if they want to join when invited to group chat. ⭑</td>
+                        <td class="specific-topic-inference">Platform visualizes topics discussed in group chat before a person decides to enter. ⧖<</td>
+                        <td>Users can revert message read status to unread.</td>
+                        <td class="voluntary-granular-visibility specific-group-policies">Different online status by group: would love to chat for friends; online, but busy for others. &#9734; ⟑</td>
+                        <td class="informed-account-summary">Classify DMs from strangers using sender’s content [30] and behavior [96]. †</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Profile</th>
+                        <td class="voluntary-granular-visibility">Users can control profile visibility by audience: only show selfies to friends & friends’ friends. &#9734; ⟑</td>
+                        <td class="informed-audience-intel">Platform shows how many people that viewed the profile are strangers. ‡</td>
+                        <td class="revertible-effcient-express">Users can query and delete, en masse, tags and comments from their profile related to account (e.g., ex-partner). &#9728;  </td>
+                        <td class="specific-group-policies">Some profile fields are only shown to accounts that have been friends for > t time. ⟑</td>
+                        <td class="voluntary-periodic-check">Platform periodically reminds user how their profile looks to other people: “This is how your profile looks to Jake.” ⭑</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Friend + follow</th>
+                        <td class="voluntary-request-isolation">Users can accept a friend request but can isolate it, sending it to a separate queue. (e.g., if acceptance is coerced). &#9790;</td>
+                        <td class="informed-account-summary">Platform alerts if friend request comes from account with history of posting toxic content [96]. †</td>
+                        <td>Requests from people previously unfriended are sent to a queue. —ensuring revert. ˇ</td>
+                        <td class="specific-social-circle specific-group-policies">Assign people to “circles” [104] at follow time with rules: no tags from this circle. ⟇⟑</td>
+                        <td class="voluntary-periodic-check informed-account-summary">Periodic reviews of followers/friends with new risk scores (e.g. toxicity level). †⭑</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Post+ comment</th>
+                        <td>*most platforms already support voluntary posting and commenting</td>
+                        <td class="informed-audience-intel">Users receive reports of how many post viewers are strangers. ‡</td>
+                        <td class="revertible-effcient-express">Users can query and delete posts/comments at large scale. &#9728; </td>
+                        <td class="specific-group-policies">Users can apply audience rules to hashtags: e.g, creator can restrict who can use it [143]. ⟑</td>
+                        <td class="unburdensome-rate-limit">Users can rate limit comments per post. &clubs;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Feed</th>
+                        <td class="voluntary-periodic-check">Feed asks what users want to see today (or this week). ⭑ (Figure 2)</td>
+                        <td>Content feed makes algorithms visible and salient [43].</td>
+                        <td>Users can bookmark feed settings to easily revert to prior settings.</td>
+                        <td class="specific-group-policies">Users can set different types of content feeds per social circle. ⟑ *similar to mastodon’s local timelines [170]</td>
+                        <td class="unburdensome-annotation">Users can annotate posts in feed [168], from which the system can learn what posts the person wants to see (or not see). &diams;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tag</th>
+                        <td class="voluntary-periodic-check">By default, platform always asks user if they consent to being tagged when another user initiates tagging. ⭑</td>
+                        <td class="informed-audience-intel">Platform provides high-level summary of audience, outside friends, that sees tagged post. ‡</td>
+                        <td class="revertible-effcient-express">If user unfriends, the system asks if they also want to delete tags of the person. &#9728;</td>
+                        <td class="specific-topic-inference">Users set tagging rules by content type: disallow tags in photos of people. ⧖</td>
+                        <td class="unburdensome-timeboxing">Users can timebox tag frequency: Jake can only tag once a month. &spades;</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Share + retweet </th>
+                        <td class="voluntary-sharing-hops">Users can limit how many hops shares are allowed to travel. &#9789;  </td>
+                        <td class="informed-audience-intel">Users are notified if post is shared to a new network “neighborhood.” ‡</td>
+                        <td class="revertible-cascading-revert">When user deactivates post’s sharing, or deletes the post, existing shares disappear. &#9788;   
+                        <br> *twitter partially implements this</td>
+                        <td class="specific-social-circle">Leveraging data of past interactions, users can decide who can share each post: Only people who I have messaged 5 times can share. ⟇</td>
+                        <td class="informed-audience-intel">Platform alerts user if their post starts being shared rapidly by strangers [146]. ‡</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div class="section-title team" >
+            <h2>Research Team</h2>
+            Jane Im, University of Michigan School of Information & Computer Science and Engineering
+            <br>
+            Jill Dimond, Sassafras Tech Collective
+            <br>
+            Melody, Sassafras Tech Collective
+            <br>
+            Una Lee, And Also Too
+            <br>
+            Katherine Mustelier, University of Michigan School of Information
+            <br>
+            Mark Ackerman, University of Michigan School of Information & Computer Science and Engineering
+            <br>
+            Eric Gilbert, University of Michigan School of Information & Computer Science and Engineering
+
+        </div>
+    <br>
+
+        <div id="sign">
+            <small>This site is made by Jane Im, code <a href="https://github.com/trusttri/trusttri.github.io">here</a>. Last updated 12/24/2020</small>
+        </div>
+    </body>
+</html>
+
+
