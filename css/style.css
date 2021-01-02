@@ -11,13 +11,16 @@ body {
 	font-size: 21px;
 }
 
+.section-description {
+	font-size: 18px;
+}
+
 .container {
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .principle-container {
-	/*background-color: #2208724a;*/
 	padding: 10px 20px 10px 20px;
 }
 
@@ -72,6 +75,7 @@ body {
 	background-color: #4081f1;
 	color: white;
 }
+
 .building-blocks .block-definition {
 	font-size: 16px;
 }
