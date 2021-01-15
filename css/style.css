@@ -32,7 +32,7 @@ h3 {
 }
 
 .intro-section .section-description{
-	background: #00ab94;
+	background: #000cab;
 	padding-top: 50px;
 	padding-bottom: 20px;
 	color: white;
@@ -58,11 +58,12 @@ h3 {
 }
 
 .building-features-container .section-title {
-	background-color: #44ae5b;
+	background-color: #ca4660;
 }
 
 .section-title {
-	background-color: #2e89ebe3;
+	/*background-color: #2e89ebe3;*/
+	background-color: #9521b3e3;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-top: 30px;
@@ -90,7 +91,8 @@ h3 {
 
 .building-blocks button {
 	font-size: 18px;
-	background-color: #e1ecff;
+	background-color: #802730;
+	color: white;
 	cursor: pointer;
     border-style: none;
     border-radius: 0.4rem;
@@ -99,15 +101,16 @@ h3 {
 
 .tag {
 	font-size: 13px;
-	background-color: #e1ecff;
-	cursor: pointer;
+	background-color: #000cab;
+	color: white;
+	/*cursor: pointer;*/
     border-style: none;
     border-radius: 0.4rem;
     padding: 3px 8px 3px 8px;
 }
 
 .building-blocks button:hover {
-	background-color: #4081f1;
+	background-color: #a54b82;
 	color: white;
 }
 
@@ -138,6 +141,7 @@ h3 {
 
 .figure-description {
 	margin-top: 5px;
+	margin-bottom: 20px;
 	font-size: 13px;
 }
 
@@ -156,5 +160,9 @@ h3 {
 
 #sign {
     text-align: center;
+}
+
+.white-text {
+	color: white;
 }
 

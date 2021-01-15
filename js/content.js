@@ -20,7 +20,8 @@ function colorCells(building_block_name){
 	removeColor();
 	var cells = document.getElementsByClassName(building_block_name)
 	for (let i=0; i<cells.length; i++){
-		cells[i].classList.add("table-info")
+		cells[i].classList.add("bg-primary")
+		cells[i].classList.add("white-text")
 	}
 	document.getElementById("feature-table").scrollIntoView()
 }
@@ -29,7 +30,8 @@ function removeColor(){
 	var rows = document.getElementById("feature-table").rows
 	for (let i=0; i<rows.length; i++){
 		for(let j=0; j<rows[i].cells.length; j++){
-			rows[i].cells[j].classList.remove("table-info")
+			rows[i].cells[j].classList.remove("bg-primary")
+			rows[i].cells[j].classList.remove("white-text")
 		}
 	}
 }
