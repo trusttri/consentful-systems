@@ -80,11 +80,13 @@
                 <div class="header"> 1. Building blocks for <strong>voluntary</strong>. </div>
                 <div class="building-blocks">
                     <div class="row block-row">
-                        <div class="col-4"><button id="voluntary-periodic-check">Periodic checks ⭑</button></div>
+                        <div class="col-4"><button id="voluntary-periodic-check">Periodic checks</button></div>
+                         <!-- ⭑ -->
                         <div class="col-8 block-definition">System periodically asks the end-user (and does not assume) whether they want the interaction to take place. For instance, a system asks a person if they want to enter the group chat room they are invited to, instead of automatically adding them.</div>
                     </div>
                     <div class="row block-row">
-                        <div class="col-4"><button id="voluntary-granular-visibility">Granular visibility &#9734;</button></div>
+                        <div class="col-4"><button id="voluntary-granular-visibility">Granular visibility</button></div>
+                        <!-- &#9734; -->
                         <div class="col-8 block-definition"> System allows granular levels of visibility of personal information for different friends. While some social platforms provide this, many are limited to differentiating “friends” and “non-friends.” For example, users could have agency over their visibility based on strength of ties. </div>
                     </div>
                     <div class="row block-row">
@@ -175,19 +177,31 @@
                 <tbody>
                     <tr>
                         <th scope="row">DM + group chat</th>
-                        <td class="voluntary-periodic-check">Users are asked if they want to join when invited to group chat. ⭑</td>
+                        <td class="voluntary-periodic-check">Users are asked if they want to join when invited to group chat.
+                            <br><span class="tag">Periodic checks</span>
+                            <!-- ⭑ -->
+                        </td>
                         <td class="specific-topic-inference">Platform visualizes topics discussed in group chat before a person decides to enter. ⧖</td>
                         <td>Users can revert message read status to unread.</td>
-                        <td class="voluntary-granular-visibility specific-group-policies">Different online status by group: would love to chat for friends; online, but busy for others. &#9734; ⟑</td>
+                        <td class="voluntary-granular-visibility specific-group-policies">Different online status by group: would love to chat for friends; online, but busy for others. ⟑
+                            <br><span class="tag">Granular visibility</span> 
+                             <!-- &#9734; -->
+                        </td>
                         <td class="informed-account-summary">Classify DMs from strangers using sender’s content and behavior. † <br><a href="#unburdensome-messaging-example">Example 3</a></td>
                     </tr>
                     <tr>
                         <th scope="row">Profile</th>
-                        <td class="voluntary-granular-visibility">Users can control profile visibility by audience: only show selfies to friends & friends’ friends. &#9734; ⟑</td>
+                        <td class="voluntary-granular-visibility">Users can control profile visibility by audience: only show selfies to friends & friends’ friends. ⟑
+                            <br><span class="tag">Granular visibility</span> 
+                            <!-- &#9734; -->
+                        </td>
                         <td class="informed-audience-intel">Platform shows how many people that viewed the profile are strangers. ‡</td>
                         <td class="revertible-effcient-express">Users can query and delete, en masse, tags and comments from their profile related to account (e.g., ex-partner). &#9728; <br><a href="#revertible-profile-example">Example 2</a> </td>
                         <td class="specific-group-policies">Some profile fields are only shown to accounts that have been friends for > t time. ⟑</td>
-                        <td class="voluntary-periodic-check">Platform periodically reminds user how their profile looks to other people: “This is how your profile looks to Jake.” ⭑</td>
+                        <td class="voluntary-periodic-check">Platform periodically reminds user how their profile looks to other people: “This is how your profile looks to Jake.”
+                            <br><span class="tag">Periodic checks</span>
+                            <!-- ⭑ -->
+                        </td>
                     </tr>
                     <tr>
                         <th scope="row">Friend + follow</th>
@@ -195,7 +209,10 @@
                         <td class="informed-account-summary">Platform alerts if friend request comes from account with history of posting toxic content. †</td>
                         <td>Requests from people previously unfriended are sent to a queue. —ensuring revert. ˇ</td>
                         <td class="specific-social-circle specific-group-policies">Assign people to “circles” at follow time with rules: no tags from this circle. ⟇⟑</td>
-                        <td class="voluntary-periodic-check informed-account-summary">Periodic reviews of followers/friends with new risk scores (e.g. toxicity level). †⭑</td>
+                        <td class="voluntary-periodic-check informed-account-summary">Periodic reviews of followers/friends with new risk scores (e.g. toxicity level). 
+                            <br><span class="tag">Periodic checks</span>
+                            <!-- ⭑ -->
+                            †</td>
                     </tr>
                     <tr>
                         <th scope="row">Post+ comment</th>
@@ -207,7 +224,10 @@
                     </tr>
                     <tr>
                         <th scope="row">Feed</th>
-                        <td class="voluntary-periodic-check">Feed asks what users want to see today (or this week). ⭑<br><a href="#voluntary-feed-example">Example 1</a></td>
+                        <td class="voluntary-periodic-check">Feed asks what users want to see today (or this week). 
+                            <br><span class="tag">Periodic checks</span>
+                            <!-- ⭑ -->
+                            <br><a href="#voluntary-feed-example">Example 1</a></td>
                         <td>Content feed makes algorithms visible and salient.</td>
                         <td>Users can bookmark feed settings to easily revert to prior settings.</td>
                         <td class="specific-group-policies">Users can set different types of content feeds per social circle. ⟑ <br>*similar to mastodon’s local timelines</td>
@@ -215,7 +235,10 @@
                     </tr>
                     <tr>
                         <th scope="row">Tag</th>
-                        <td class="voluntary-periodic-check">By default, platform always asks user if they consent to being tagged when another user initiates tagging. ⭑</td>
+                        <td class="voluntary-periodic-check">By default, platform always asks user if they consent to being tagged when another user initiates tagging.
+                            <br><span class="tag">Periodic checks</span>
+                            <!-- ⭑ -->
+                        </td>
                         <td class="informed-audience-intel">Platform provides high-level summary of audience, outside friends, that sees tagged post. ‡</td>
                         <td class="revertible-effcient-express">If user unfriends, the system asks if they also want to delete tags of the person. &#9728;</td>
                         <td class="specific-topic-inference">Users set tagging rules by content type: disallow tags in photos of people. ⧖</td>

@@ -97,6 +97,15 @@ h3 {
     padding: 5px 10px 5px 10px;
 }
 
+.tag {
+	font-size: 13px;
+	background-color: #e1ecff;
+	cursor: pointer;
+    border-style: none;
+    border-radius: 0.4rem;
+    padding: 3px 8px 3px 8px;
+}
+
 .building-blocks button:hover {
 	background-color: #4081f1;
 	color: white;
