@@ -241,38 +241,95 @@
             </div>
 
             <div class="examples">
-                <div class="header" id="voluntary-feed-example"> <b>1. Voluntary Content Feeds: Feeds that ask what you want to see today/this week/this month</b></div>
-                <div class="example-figures">
-
-                    <img src="images/socious-1.png" alt="The image shows a content feed of Socious, an imaginary social platform. At the top, the feed asks the user what they want to see this week, with a search bar for searching topics and some recommended topics right below the search bar. Below the search bar and recommendations, there are topics the user liked from last week, so the user can easily re-select them if they want to. Among the topics Lucy liked last week, which are Flowers, News in Korea, Volleyball, Slow Motion, etc., Lucy selected Flowers, Volleyball, and Slow Motion. At the very bottom, the user can select topics they want to filter out. There are currently Self Harm, Alt right, Race, Anime, etc. showed and Lucy selected Self Harm, Alt right, and Race.">
-                    <img src="images/socious-2.png" alt='The image shows the feed reflecting the preferences of the user. The first post, written by an account with the username equalighte, says "I came to a flower festival today! Everyone should check it out!" which is related to the topic "Flower Trending." The second one, posted by liberati, says "I saw Howl&#39;s Moving Castle tonight and it was so beautiful...!" which is related to the topic "Animation." Lastly, the user secretdancer48 posted "It&#39;s been a week since I started to learn waltz. It&#39;s more difficult than I thought!" which is related to the topic "Dance."'>
+                <div>
+                    <div class="header" id="voluntary-feed-example"> <b>1. Voluntary Content Feeds: Feeds that ask what you want to see today/this week/this month</b></div>
+                    <div class="example-figures">
+                        <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-5">
+                                <img src="images/socious-1.png" alt="The image shows a content feed of Socious, an imaginary social platform. At the top, the feed asks the user what they want to see this week, with a search bar for searching topics and some recommended topics right below the search bar. Below the search bar and recommendations, there are topics the user liked from last week, so the user can easily re-select them if they want to. Among the topics Lucy liked last week, which are Flowers, News in Korea, Volleyball, Slow Motion, etc., Lucy selected Flowers, Volleyball, and Slow Motion. At the very bottom, the user can select topics they want to filter out. There are currently Self Harm, Alt right, Race, Anime, etc. showed and Lucy selected Self Harm, Alt right, and Race.">
+                            </div>
+                            <div class="col-5">
+                                <img src="images/socious-2.png" alt='The image shows the feed reflecting the preferences of the user. The first post, written by an account with the username equalighte, says "I came to a flower festival today! Everyone should check it out!" which is related to the topic "Flower Trending." The second one, posted by liberati, says "I saw Howl&#39;s Moving Castle tonight and it was so beautiful...!" which is related to the topic "Animation." Lastly, the user secretdancer48 posted "It&#39;s been a week since I started to learn waltz. It&#39;s more difficult than I thought!" which is related to the topic "Dance."'>
+                            </div>
+                            <div class="col-1"></div>
+                        </div>
+                        <div class="row figure-description">
+                            <div class="col-1"></div>
+                            <div class="col-5">
+                                When Lucy opens Socious, they are greeted within the content feed asking what they want to see this week.
+                            </div>
+                            <div class="col-5">
+                                Once Lucy selects the topics they want (or not want) to see, the changes are immediately reflected in the feed.
+                            </div>
+                            <div class="col-1"></div>
+                        </div>
+                    </div>
+                    <div>
+                        Current content feeds do not ask what a user wants to see; they typically assume what a user wants based on inference over platform data. As a result, many encounter unwanted posts in their feeds, sometimes even <a href="https://dl.acm.org/doi/10.1145/3359172">after the user has invested great effort to avoid such posts</a>. A content feed constructed around the voluntary principle of affirmative consent would periodically ask what the user wants to see.
+                        <br><br>
+                        Imagine that Lucy logs onto a new platform called Socious, and the platform greets them by asking “What do you want to see this week?” Lucy sees Socious recommended keywords like “Flower Tending”, “Animation”, and “Dance” based on topic modeling. Lucy decides they would like to see more of flowers, dance, and animation. Lucy also notices they can specify topics they do not want to see. Lucy can also select among tags that include well-known triggering topics. Lucy selects “Self Harm”, “Alt Right,” and “Race” for exclusion from their feed. As Lucy scrolls down the feed, they see the new preferences immediately reflected. After a week, Socious asks Lucy again for topic preferences—though Lucy can change the frequency of requests any time.
+                    </div>
                 </div>
-                Current content feeds do not ask what a user wants to see; they typically assume what a user wants based on inference over platform data. As a result, many encounter unwanted posts in their feeds, sometimes even <a href="https://dl.acm.org/doi/10.1145/3359172">after the user has invested great effort to avoid such posts</a>. A content feed constructed around the voluntary principle of affirmative consent would periodically ask what the user wants to see.
-                <br><br>
-                Imagine that Lucy logs onto a new platform called Socious, and the platform greets them by asking “What do you want to see this week?” Lucy sees Socious recommended keywords like “Flower Tending”, “Animation”, and “Dance” based on topic modeling. Lucy decides they would like to see more of flowers, dance, and animation. Lucy also notices they can specify topics they do not want to see. Lucy can also select among tags that include well-known triggering topics. Lucy selects “Self Harm”, “Alt Right,” and “Race” for exclusion from their feed. As Lucy scrolls down the feed, they see the new preferences immediately reflected. After a week, Socious asks Lucy again for topic preferences—though Lucy can change the frequency of requests any time.
-
-                <div class="header" id="revertible-profile-example"><b>2. Revertible Profile Pages: Revert posts, comments, and tags efficiently</b></div>
-                <div class="example-figures">
-
-                    <img src="images/webcon-1.png" alt='The image shows Jon&#39;s profile page on WebCon. At the top, Jon&#39;s profile image and username are shown. It also shows that Jon has posted 579 photos and has 110 followers while following 47 users. Jon&#39;s bio says "36 years young, disco lover." Below the bio, six of Jon&#39;s uploaded photos are shown. Three of them show Jon with Emily, while the other three are either a photo of Jon or a scenery.'>
-                    <img id="webcon-2" src="images/webcon-2.png" alt='The image shows a dashboard where a WebCon user can query for certain likes, tags, comments, and posts related to a certain account. At the top, Jon has typed in Emily&#39;s username in a search box and selected to query for his posts that Emily liked, is tagged in, or left comments on, as well as Emily&#39;s posts that he liked, is tagged in, or left comments on. At the bottom, corresponding posts, likes, tags, and comments show up. Jon selected to delete everything that can be deletable.'>
-                    <img src="images/webcon-3.png" alt='The image shows the reflected changes in Jon&#39;s profile page. All of the photos that included Emily are now deleted (which previously were included in the first subfigure). Another difference is that Jon has now 109 followers and follows 46 people, as he stopped following Emily and removed Emily from his follower list.'>
+               
+                
+                <div>
+                    <div class="header" id="revertible-profile-example"><b>2. Revertible Profile Pages: Revert posts, comments, and tags efficiently</b></div>
+                    <div class="example-figures">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/webcon-1.png" alt='The image shows Jon&#39;s profile page on WebCon. At the top, Jon&#39;s profile image and username are shown. It also shows that Jon has posted 579 photos and has 110 followers while following 47 users. Jon&#39;s bio says "36 years young, disco lover." Below the bio, six of Jon&#39;s uploaded photos are shown. Three of them show Jon with Emily, while the other three are either a photo of Jon or a scenery.'>
+                            </div>
+                            <div class="col-4">
+                                <img id="webcon-2" src="images/webcon-2.png" alt='The image shows a dashboard where a WebCon user can query for certain likes, tags, comments, and posts related to a certain account. At the top, Jon has typed in Emily&#39;s username in a search box and selected to query for his posts that Emily liked, is tagged in, or left comments on, as well as Emily&#39;s posts that he liked, is tagged in, or left comments on. At the bottom, corresponding posts, likes, tags, and comments show up. Jon selected to delete everything that can be deletable.'>
+                            </div>
+                            <div class="col-4">
+                                <img src="images/webcon-3.png" alt='The image shows the reflected changes in Jon&#39;s profile page. All of the photos that included Emily are now deleted (which previously were included in the first subfigure). Another difference is that Jon has now 109 followers and follows 46 people, as he stopped following Emily and removed Emily from his follower list.'>
+                            </div>
+                        </div>
+                       <div class="row figure-description">
+                            <div class="col-4">
+                                Jon’s profile page on WebCon.
+                            </div>
+                            <div class="col-4">
+                                Jon queries for posts containing tagged photos of Emily or ones that Emily left comments on or liked. Jon decides to delete all of them.
+                            </div>
+                            <div class="col-4">
+                                Jon goes back to his profile page and sees the queried posts removed from his profile.
+                            </div>
+                       </div>
+                    </div>
+                        Our social networks constantly change offline—we sometimes distance ourselves from people who were once close friends, go through break-ups, or our loved ones pass away. However, the rigidity of current platforms makes it hard to reflect these changes. For instance, Facebook’s feature called <a href="https://www.facebook.com/help/1056848067697293/?helpref=hc_fnav">Memories</a> shows content that you shared in the past—in some cases showing memories that a person may not want to recall, such as photos of one’s recently deceased family.
+                        <br><br>
+                        Imagine Jon logged into WebCon, a new social platform. Jon recently went through a break-up, and wants to remove all data related to his ex-partner, Emily. Jon goes to the dashboard and queries for his posts that Emily liked, is tagged in, or left comments on, as well as Emily’s posts that he liked, is tagged in, or left comments on. He decides to delete all of his posts that are related to Emily. He also chooses to remove his likes, comments, and tags in/on Emily’s posts. Jon goes back to his profile page and sees these posts removed from his profile. Jon also deletes all of Emily’s comments in his remaining posts. In contrast, Jon cannot delete Emily’s posts of Jon, as those posts are Emily’s.
                 </div>
-                Our social networks constantly change offline—we sometimes distance ourselves from people who were once close friends, go through break-ups, or our loved ones pass away. However, the rigidity of current platforms makes it hard to reflect these changes. For instance, Facebook’s feature called <a href="https://www.facebook.com/help/1056848067697293/?helpref=hc_fnav">Memories</a> shows content that you shared in the past—in some cases showing memories that a person may not want to recall, such as photos of one’s recently deceased family.
-                <br><br>
-                Imagine Jon logged into WebCon, a new social platform. Jon recently went through a break-up, and wants to remove all data related to his ex-partner, Emily. Jon goes to the dashboard and queries for his posts that Emily liked, is tagged in, or left comments on, as well as Emily’s posts that he liked, is tagged in, or left comments on. He decides to delete all of his posts that are related to Emily. He also chooses to remove his likes, comments, and tags in/on Emily’s posts. Jon goes back to his profile page and sees these posts removed from his profile. Jon also deletes all of Emily’s comments in his remaining posts. In contrast, Jon cannot delete Emily’s posts of Jon, as those posts are Emily’s.
 
-                <div class="header" id="unburdensome-messaging-example"><b>3. Unburdensome Messaging: Leverage network data to control chats</b></div>
-                <div class="example-figures">
-
-                    <img src="images/comedia-1.png" alt='The image shows Sannvi&#39;s chats on CoMedia, an imaginary new platform, in a mobile view. It shows the five most recent messages where four of them are messages from men about Sannvi&#39;s looks, such as "Hi beautiful." from a user named John Williams and "Damn, looking hot!" from David Jackson.'>
-                    <img src="images/comedia-2.png" alt='The image shows the control panel of CoMedia where Sannvi can choose who can message her. Sannvi has selected the two options that only allow accounts that either Sannvi&#39;s friends have messaged them first or liked their posts to message her.'>
-                    <img src="images/comedia-3.png" alt='The image shows the setting immediately taken effect, with the four messages about Sannvi&#39;s looks not visible and sent to a separate queue. She sees two new messages from her friends&#39; friends, Sharon and Preeti.'>
+                <div>
+                    <div class="header" id="unburdensome-messaging-example"><b>3. Unburdensome Messaging: Leverage network data to control chats</b></div>
+                    <div class="example-figures">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/comedia-1.png" alt='The image shows Sannvi&#39;s chats on CoMedia, an imaginary new platform, in a mobile view. It shows the five most recent messages where four of them are messages from men about Sannvi&#39;s looks, such as "Hi beautiful." from a user named John Williams and "Damn, looking hot!" from David Jackson.'>
+                            </div>
+                            <div class="col-4">
+                                <img src="images/comedia-2.png" alt='The image shows the control panel of CoMedia where Sannvi can choose who can message her. Sannvi has selected the two options that only allow accounts that either Sannvi&#39;s friends have messaged them first or liked their posts to message her.'>
+                            </div>
+                            <div class="col-4">
+                                <img src="images/comedia-3.png" alt='The image shows the setting immediately taken effect, with the four messages about Sannvi&#39;s looks not visible and sent to a separate queue. She sees two new messages from her friends&#39; friends, Sharon and Preeti.'>
+                            </div>
+                        </div>
+                        <div class="row figure-description">
+                            <div class="col-4">Sannvi sees many unwanted messages when she opens CoMedia.</div>
+                            <div class="col-4">Sannvi uses network rules to control who can message her.</div>
+                            <div class="col-4">Sannvi has the majority of her new messages sent to a separate queue. She also sees new messages from friends’ friends, Sharon and Preeti.</div>
+                        </div>
+                    </div>
+                    On most current platforms, when a person sets their account to public, strangers or spam accounts can DM them with unsolicited content. <a href="https://ncvc.dspacedirect.org/handle/20.500.11990/10">For instance, about half of American women ages 18 to 29 have received explicit images they never asked for.</a> At internet scale, it becomes very difficult to exercise control over messages; some people abandon platforms altogether for this reason.
+                    <br><br>
+                    Imagine Sannvi has been receiving many unwanted messages on CoMedia. The messages often include compliments about her looks, which she finds uncomfortable. Sannvi decides she does not want to see such messages and goes to “Control Panel,” applying network-centric rules such as: Only allow people that my friends have messaged to message me. Now, if a stranger messages Sannvi on CoMedia, the system first looks up whether the sender has ever interacted with Sannvi or any of her friends on the platform. If not, CoMedia sends the stranger’s message to a separate queue which Sannvi can later review if she wants.
                 </div>
-                On most current platforms, when a person sets their account to public, strangers or spam accounts can DM them with unsolicited content. <a href="https://ncvc.dspacedirect.org/handle/20.500.11990/10">For instance, about half of American women ages 18 to 29 have received explicit images they never asked for.</a> At internet scale, it becomes very difficult to exercise control over messages; some people abandon platforms altogether for this reason.
-                <br><br>
-                Imagine Sannvi has been receiving many unwanted messages on CoMedia. The messages often include compliments about her looks, which she finds uncomfortable. Sannvi decides she does not want to see such messages and goes to “Control Panel,” applying network-centric rules such as: Only allow people that my friends have messaged to message me. Now, if a stranger messages Sannvi on CoMedia, the system first looks up whether the sender has ever interacted with Sannvi or any of her friends on the platform. If not, CoMedia sends the stranger’s message to a separate queue which Sannvi can later review if she wants.
             </div>
+        </div>
         </div>
 
 

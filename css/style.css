@@ -121,11 +121,16 @@ h3 {
 }
 
 .example-figures img {
-	width: 30%;
+	width: 75%;
+}
+
+.figure-description {
+	margin-top: 5px;
+	font-size: 13px;
 }
 
 #webcon-2 {
-	width: 34%;
+	width: 85%;
 }
 
 .team {
