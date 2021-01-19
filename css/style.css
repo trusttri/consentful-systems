@@ -99,6 +99,20 @@ h3 {
     padding: 5px 10px 5px 10px;
 }
 
+.example-button {
+	font-size: 13px;
+	background-color: #130295;
+	color: white;
+	cursor: pointer;
+    border-style: none;
+    border-radius: 0.4rem;
+    padding: 3px 7px 3px 7px;
+}
+
+.example-button:hover {
+	background-color: #0474ad;
+}
+
 .tag {
 	font-size: 13px;
 	background-color: #676987;
@@ -166,3 +180,20 @@ h3 {
 	color: white;
 }
 
+.logo-section {
+	text-align: center;
+}
+
+.logo {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 60%;
+}
+
+#um-logo {
+	width: 40%;
+}
+
+#and-also-too-logo {
+	width: 40%;
+}
