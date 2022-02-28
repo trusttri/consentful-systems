@@ -182,12 +182,17 @@ h3 {
 }
 
 
-.team {
+.author {
 	margin-top: 80px;
 	background-color: #f7f6f1; 
 	color: black;
 	text-align: center;
 	font-size: 20px;
+}
+
+.author-inside {
+	padding-right: 80px;
+	padding-left: 80px;
 }
 
 #sign {
